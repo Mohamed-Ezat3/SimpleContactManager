@@ -100,7 +100,7 @@ namespace SimpleContactManager
                         }
                         break;
                     case MenuOption.Exit:
-                        Console.WriteLine("Exiting...");
+                        Environment.Exit(0);
                         return;
                     default:
                         Console.WriteLine("Invalid option. Try again.");
